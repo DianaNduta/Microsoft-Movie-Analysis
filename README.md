@@ -1,72 +1,81 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+
 
 ![blueprint](images/blueprint.png)
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
 
-## Repository Contents
+# Microsoft Company Movie Genre Analysis
 
+Author: Diana Nduta Mwaura
+
+## Overview
+
+The aim of this project is to analyze movie related data and come up with actionable insights to assist Microsoft in its bid to create original video content. The company requires recommendations on the types of movies to produce. A descriptive analysis of the data indicates that there are particular types of movie genres that do well in the box office. This recommendations offered can be implemented by Microsoft Company to enhance quality movie production and maximize on their returns.
+
+
+## Business Problem
+
+Microsoft Company may be able to know which kind of movies they will create, what period of the year they will release the movies and how they will set up their movie studio. In so doing they'll be able to maximize on their profits and produce high quality movies.
+
+
+## Data
+
+The data used in the analysis is derived from a number of tables which include the Box Office Mojo, Rotten Tomatoes, IMDB, TheNumbers and ThemovieDB. The tables contained information about the movie genres, box office income, domestic gross and foreign gross to name but a few.
+
+## Methods
+
+This project uses descriptive analysis to understand how the different movie genres perform in the box office. This provides invaluable information on which type of videos Microsoft can create.
+
+## Results
+
+The analysis indicates that the movie genres that perform best in the box office include; Fantasy, Documentary, Kids and Family, Science Fiction, Action and Adventure.
 Below is a list of the contents of this repository - instructions for using them are in the next section.
 
-- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `zippedData` folder: A folder for the data you reference with your code
-- `images` folder: A folder for the images you reference in your files 
-- `.gitignore`: A hidden file that tells git to not track certain files and folders
+![blueprint](images/genre_rating.png)
 
-## Instructions For Using This Repository
+The box office contains a high amount of money between the months of October,November and December and the lowest amount is seen in the month of September.
 
-### Fork This Repository
+![blueprint](images/boxoffice_month.png)
 
-**For a group project**, have only one team member do these steps:
+Generally movies are seen to make more outside the USA than from the USA this means that the foreign gross is higher than the domestic gross
 
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
+![blueprint](images/domesticgross_foreigngross.png)
 
-3. Use `git clone` to clone your fork of this repo to your local computer
+## Conclusions
 
-4. **For a group project**, add team members as collaborators to your fork of this repo
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & send them the repo GitHub URL
+This analysis recommends that the following actions should be taken by Microsoft;
 
-### Work In Your Fork Of This Repository
+a. *Consider making movies which are in the Fantasy, Documentary, Kids and Family, Science Fiction, Action and Adventure genres*. This genres have shown to generate the highest incomes in the box office.
 
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
+b. Concentrate more on selling their movies outside the United States. From the model foreign gross has shown to be higher between the year 2010 and 2018.
 
-### Use The Slide Template
+c. Release their movies between the months of October and November. The amount of money movies make between these two months has proved to be higher.
 
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
+d. Set up its movie studio to have structures similar to those in IMAX, Newmarket Film Group and Universal. Since these studios have a higher revenue in the box office Microsot company should employ a similar design to these studios.
 
-### Tidy Up Your Project
+## Next Steps
 
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - Any unused data files in the `zippedData` folder
-   - Any unused images in the `images` folder
-- Utilize the .gitignore file to ignore large unzipped data files in the `zippedData` folder
-   - Add `*.csv`,`*.tsv`, and `*.db` to the .gitignore file
+Further analysis can help in assisting Microsoft chose the type of movies to produce;
 
-### Submit Your Project
+- Comparing the different movies under different genres. This modeling could help in going into the specifics of which movies to produce.
 
-To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
+- Web scraping to acquire current relevant data. Since the data is contiously changing up to date information would be helpful in desicion making.
+        
 
-***
-### Notes
+## For more information
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
+Check out the full analysis in the `Jupyter Notebook` or review this `Presentation`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
