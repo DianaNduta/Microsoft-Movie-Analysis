@@ -69,7 +69,7 @@ Check out the full analysis in the `Jupyter Notebook` or review this `Presentati
 
 ## Repository Path
 
-![blueprint](images/Repository path.PNG)
+![blueprint](images/Repositorypath.PNG)
 
 
 
