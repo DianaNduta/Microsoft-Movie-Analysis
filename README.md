@@ -1,6 +1,6 @@
 
 
-![blueprint](images/blueprint.png)
+![blueprint](images/readmeimage1.jpg)
 
 
 # Microsoft Company Movie Genre Analysis
@@ -11,6 +11,7 @@ Author: Diana Nduta Mwaura
 
 The aim of this project is to analyze movie related data and come up with actionable insights to assist Microsoft in its bid to create original video content. The company requires recommendations on the types of movies to produce. A descriptive analysis of the data indicates that there are particular types of movie genres that do well in the box office. This recommendations offered can be implemented by Microsoft Company to enhance quality movie production and maximize on their returns.
 
+![blueprint](images/readmeimage2.png)
 
 ## Business Problem
 
