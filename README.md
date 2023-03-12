@@ -67,8 +67,9 @@ Further analysis can help in assisting Microsoft chose the type of movies to pro
 Check out the full analysis in the `Jupyter Notebook` or review this `Presentation`
 
 
+## Repository Path
 
-
+![blueprint](images/Repository path.PNG)
 
 
 
