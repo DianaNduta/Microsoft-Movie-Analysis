@@ -64,7 +64,7 @@ Further analysis can help in assisting Microsoft chose the type of movies to pro
 
 ## For more information
 
-Check out the full analysis in the `Jupyter Notebook` or review this `Presentation`
+Check out the full analysis in the [Jupyter Notebook] (https://github.com/DianaNduta/Microsoft-Movie-Analysis/blob/master/Microsoft%20Movie%20Genre%20Analysis.ipynb) or review this [Presentation] (https://github.com/DianaNduta/Microsoft-Movie-Analysis/blob/master/Microsoft%20Movie%20Genre%20Analysis%20Slides.pdf)
 
 
 ## Repository Path
